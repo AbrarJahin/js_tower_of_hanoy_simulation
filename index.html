@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TOH</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="panel panel-default">
+				<div class="panel-heading">Hanoi Tower</div>
+				<div class="panel-body">
+				<canvas id="stage" class="center-block" width="400" height="220" style="border:1px black solid "></canvas>
+				<div id="ctrl" class="center-block">
+					<label for="numsel">Disc Number : </label>
+					<select id="numsel">
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+					</select>
+					<button class="btn btn-default" id="start" value="start">Start</button>
+					<label for="step">Step : </label> <span class="badge" id="step">0</span>
+				</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+	<script type="text/javascript" src="js/easeljs-0.7.1.min.js"></script>
+	<script type="text/javascript" src="js/TweenMax.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</html>
+
